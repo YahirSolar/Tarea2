@@ -9,4 +9,3 @@ class Apartamento : Casa {
         Console.WriteLine("Soy un Apartamento, mi area es " + this.area + " m2");
     }
 }
-
