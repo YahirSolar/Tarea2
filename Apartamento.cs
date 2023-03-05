@@ -5,7 +5,7 @@ class Apartamento : Casa {
     public Apartamento(): base(50) {
     }
 
-    new public void MostrarDatos() {
+    public override void MostrarDatos() {
         Console.WriteLine("Soy un Apartamento, mi area es " + this.area + " m2");
     }
 }

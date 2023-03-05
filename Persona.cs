@@ -1,7 +1,7 @@
 namespace Tarea2;
 
 class Persona {
-    public String nombre = "";
+    public String nombre;
     public Casa casa;
 
     public Persona() {
